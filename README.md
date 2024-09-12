@@ -1,9 +1,9 @@
 # Newz Wrld - A News Web App
 
 ## Live Server:
-You can access the live version of the News App at 
+### You can access the live version of the News App at 
 
-    https://news-wrld-app.web.app/
+# https://news-wrld-app.web.app/
 
 ## Description:
 
@@ -24,13 +24,13 @@ The Newz Wrld App is a web application built using React.js with Next.js framewo
 
 ## Getting Started:
 
-#### 1. Prerequisites: 
+### 1. Prerequisites: 
 Ensure you have Node.js (version 14 or later) and npm (or yarn) installed on your system. You can download them from https://nodejs.org/.
-#### 2.Cloning the Repository:
+### 2.Cloning the Repository:
 
     git clone https://github.com/<your-username>/<your-repository-name>.
 
-#### 3.Installing Dependencies:
+### 3.Installing Dependencies:
 
 Navigate to newapp_api project's root directory.
 Run 
@@ -45,6 +45,16 @@ Run
     npm install (or yarn install) 
     
 to install the required dependencies for both the front-end and back-end projects. This will create a node_modules folder within project directory.
+
+### 4.Environment Setup:
+
+##### 1. Create a file named .env in the root directory of both newapp_api and newapp_frontend folders.
+##### 2. In newapp_api/.env:
+        Add NEWS_API_KEY=your_api_key.
+Replace your_api_key with your own API key obtained from gnews.io ([invalid URL removed]). Sign up for an account to generate your API key.
+##### 3. In newapp_frontend/.env:
+        Add API_URL=http://localhost:3000 (or your back-end server's URL if deployed elsewhere).
+
 
 ## Running the Project
 
