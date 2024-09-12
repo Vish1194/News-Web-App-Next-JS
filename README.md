@@ -86,3 +86,8 @@ Start the front-end server using:
 This will typically start the front-end server on port 4000. You can access your front-end application at http://localhost:4000.
 
 
+###### Something to say,
+Here, gnews.io provides only a limited number of requests, and I needed a way to cache top headlines for atleast 30 minutes to reduce the number of requests sent each time the web page is opened. So Next.js-based API is well suited as it provide a cache and revalidation mechanism easily and efficiently and it is more compatible with the Vercel cloud platform, so it will be easy to deploy the backend.
+I deployed the frontend in firebase and backend in vercel, so keep it simple I created two isolated projects which is also easy to understand.
+
+##### Have a great day 🌞.
